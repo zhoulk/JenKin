@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB25D0801D9ED2A0001E36AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D07F1D9ED2A0001E36AF /* main.m */; };
+		FB25D0831D9ED2A0001E36AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D0821D9ED2A0001E36AF /* AppDelegate.m */; };
+		FB25D0861D9ED2A0001E36AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D0851D9ED2A0001E36AF /* ViewController.m */; };
+		FB25D0891D9ED2A0001E36AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25D0871D9ED2A0001E36AF /* Main.storyboard */; };
+		FB25D08B1D9ED2A0001E36AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB25D08A1D9ED2A0001E36AF /* Assets.xcassets */; };
+		FB25D08E1D9ED2A0001E36AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB25D08C1D9ED2A0001E36AF /* LaunchScreen.storyboard */; };
+		FB25D0991D9ED2A0001E36AF /* JenKinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D0981D9ED2A0001E36AF /* JenKinTests.m */; };
+		FB25D0A41D9ED2A0001E36AF /* JenKinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB25D0A31D9ED2A0001E36AF /* JenKinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB25D0951D9ED2A0001E36AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB25D0731D9ED2A0001E36AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB25D07A1D9ED2A0001E36AF;
+			remoteInfo = JenKin;
+		};
+		FB25D0A01D9ED2A0001E36AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB25D0731D9ED2A0001E36AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB25D07A1D9ED2A0001E36AF;
+			remoteInfo = JenKin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB25D07B1D9ED2A0001E36AF /* JenKin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenKin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25D07F1D9ED2A0001E36AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB25D0811D9ED2A0001E36AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB25D0821D9ED2A0001E36AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB25D0841D9ED2A0001E36AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB25D0851D9ED2A0001E36AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB25D0881D9ED2A0001E36AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB25D08A1D9ED2A0001E36AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB25D08D1D9ED2A0001E36AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB25D08F1D9ED2A0001E36AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB25D0941D9ED2A0001E36AF /* JenKinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenKinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25D0981D9ED2A0001E36AF /* JenKinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenKinTests.m; sourceTree = "<group>"; };
+		FB25D09A1D9ED2A0001E36AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB25D09F1D9ED2A0001E36AF /* JenKinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenKinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25D0A31D9ED2A0001E36AF /* JenKinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenKinUITests.m; sourceTree = "<group>"; };
+		FB25D0A51D9ED2A0001E36AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB25D0781D9ED2A0001E36AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D0911D9ED2A0001E36AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D09C1D9ED2A0001E36AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB25D0721D9ED2A0001E36AF = {
+			isa = PBXGroup;
+			children = (
+				FB25D07D1D9ED2A0001E36AF /* JenKin */,
+				FB25D0971D9ED2A0001E36AF /* JenKinTests */,
+				FB25D0A21D9ED2A0001E36AF /* JenKinUITests */,
+				FB25D07C1D9ED2A0001E36AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB25D07C1D9ED2A0001E36AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D07B1D9ED2A0001E36AF /* JenKin.app */,
+				FB25D0941D9ED2A0001E36AF /* JenKinTests.xctest */,
+				FB25D09F1D9ED2A0001E36AF /* JenKinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB25D07D1D9ED2A0001E36AF /* JenKin */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D0811D9ED2A0001E36AF /* AppDelegate.h */,
+				FB25D0821D9ED2A0001E36AF /* AppDelegate.m */,
+				FB25D0841D9ED2A0001E36AF /* ViewController.h */,
+				FB25D0851D9ED2A0001E36AF /* ViewController.m */,
+				FB25D0871D9ED2A0001E36AF /* Main.storyboard */,
+				FB25D08A1D9ED2A0001E36AF /* Assets.xcassets */,
+				FB25D08C1D9ED2A0001E36AF /* LaunchScreen.storyboard */,
+				FB25D08F1D9ED2A0001E36AF /* Info.plist */,
+				FB25D07E1D9ED2A0001E36AF /* Supporting Files */,
+			);
+			path = JenKin;
+			sourceTree = "<group>";
+		};
+		FB25D07E1D9ED2A0001E36AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D07F1D9ED2A0001E36AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB25D0971D9ED2A0001E36AF /* JenKinTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D0981D9ED2A0001E36AF /* JenKinTests.m */,
+				FB25D09A1D9ED2A0001E36AF /* Info.plist */,
+			);
+			path = JenKinTests;
+			sourceTree = "<group>";
+		};
+		FB25D0A21D9ED2A0001E36AF /* JenKinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB25D0A31D9ED2A0001E36AF /* JenKinUITests.m */,
+				FB25D0A51D9ED2A0001E36AF /* Info.plist */,
+			);
+			path = JenKinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB25D07A1D9ED2A0001E36AF /* JenKin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB25D0A81D9ED2A0001E36AF /* Build configuration list for PBXNativeTarget "JenKin" */;
+			buildPhases = (
+				FB25D0771D9ED2A0001E36AF /* Sources */,
+				FB25D0781D9ED2A0001E36AF /* Frameworks */,
+				FB25D0791D9ED2A0001E36AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JenKin;
+			productName = JenKin;
+			productReference = FB25D07B1D9ED2A0001E36AF /* JenKin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB25D0931D9ED2A0001E36AF /* JenKinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB25D0AB1D9ED2A0001E36AF /* Build configuration list for PBXNativeTarget "JenKinTests" */;
+			buildPhases = (
+				FB25D0901D9ED2A0001E36AF /* Sources */,
+				FB25D0911D9ED2A0001E36AF /* Frameworks */,
+				FB25D0921D9ED2A0001E36AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB25D0961D9ED2A0001E36AF /* PBXTargetDependency */,
+			);
+			name = JenKinTests;
+			productName = JenKinTests;
+			productReference = FB25D0941D9ED2A0001E36AF /* JenKinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB25D09E1D9ED2A0001E36AF /* JenKinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB25D0AE1D9ED2A0001E36AF /* Build configuration list for PBXNativeTarget "JenKinUITests" */;
+			buildPhases = (
+				FB25D09B1D9ED2A0001E36AF /* Sources */,
+				FB25D09C1D9ED2A0001E36AF /* Frameworks */,
+				FB25D09D1D9ED2A0001E36AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB25D0A11D9ED2A0001E36AF /* PBXTargetDependency */,
+			);
+			name = JenKinUITests;
+			productName = JenKinUITests;
+			productReference = FB25D09F1D9ED2A0001E36AF /* JenKinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB25D0731D9ED2A0001E36AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Leeesven;
+				TargetAttributes = {
+					FB25D07A1D9ED2A0001E36AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FB25D0931D9ED2A0001E36AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FB25D07A1D9ED2A0001E36AF;
+					};
+					FB25D09E1D9ED2A0001E36AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FB25D07A1D9ED2A0001E36AF;
+					};
+				};
+			};
+			buildConfigurationList = FB25D0761D9ED2A0001E36AF /* Build configuration list for PBXProject "JenKin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB25D0721D9ED2A0001E36AF;
+			productRefGroup = FB25D07C1D9ED2A0001E36AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB25D07A1D9ED2A0001E36AF /* JenKin */,
+				FB25D0931D9ED2A0001E36AF /* JenKinTests */,
+				FB25D09E1D9ED2A0001E36AF /* JenKinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB25D0791D9ED2A0001E36AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25D08E1D9ED2A0001E36AF /* LaunchScreen.storyboard in Resources */,
+				FB25D08B1D9ED2A0001E36AF /* Assets.xcassets in Resources */,
+				FB25D0891D9ED2A0001E36AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D0921D9ED2A0001E36AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D09D1D9ED2A0001E36AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB25D0771D9ED2A0001E36AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25D0861D9ED2A0001E36AF /* ViewController.m in Sources */,
+				FB25D0831D9ED2A0001E36AF /* AppDelegate.m in Sources */,
+				FB25D0801D9ED2A0001E36AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D0901D9ED2A0001E36AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25D0991D9ED2A0001E36AF /* JenKinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB25D09B1D9ED2A0001E36AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB25D0A41D9ED2A0001E36AF /* JenKinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB25D0961D9ED2A0001E36AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB25D07A1D9ED2A0001E36AF /* JenKin */;
+			targetProxy = FB25D0951D9ED2A0001E36AF /* PBXContainerItemProxy */;
+		};
+		FB25D0A11D9ED2A0001E36AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB25D07A1D9ED2A0001E36AF /* JenKin */;
+			targetProxy = FB25D0A01D9ED2A0001E36AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB25D0871D9ED2A0001E36AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB25D0881D9ED2A0001E36AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB25D08C1D9ED2A0001E36AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB25D08D1D9ED2A0001E36AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB25D0A61D9ED2A0001E36AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB25D0A71D9ED2A0001E36AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB25D0A91D9ED2A0001E36AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JenKin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icomwell.www.JenKin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB25D0AA1D9ED2A0001E36AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JenKin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icomwell.www.JenKin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB25D0AC1D9ED2A0001E36AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JenKinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icomwell.www.JenKinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenKin.app/JenKin";
+			};
+			name = Debug;
+		};
+		FB25D0AD1D9ED2A0001E36AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JenKinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icomwell.www.JenKinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JenKin.app/JenKin";
+			};
+			name = Release;
+		};
+		FB25D0AF1D9ED2A0001E36AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JenKinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icomwell.www.JenKinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JenKin;
+			};
+			name = Debug;
+		};
+		FB25D0B01D9ED2A0001E36AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JenKinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icomwell.www.JenKinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JenKin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB25D0761D9ED2A0001E36AF /* Build configuration list for PBXProject "JenKin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D0A61D9ED2A0001E36AF /* Debug */,
+				FB25D0A71D9ED2A0001E36AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB25D0A81D9ED2A0001E36AF /* Build configuration list for PBXNativeTarget "JenKin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D0A91D9ED2A0001E36AF /* Debug */,
+				FB25D0AA1D9ED2A0001E36AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB25D0AB1D9ED2A0001E36AF /* Build configuration list for PBXNativeTarget "JenKinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D0AC1D9ED2A0001E36AF /* Debug */,
+				FB25D0AD1D9ED2A0001E36AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB25D0AE1D9ED2A0001E36AF /* Build configuration list for PBXNativeTarget "JenKinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB25D0AF1D9ED2A0001E36AF /* Debug */,
+				FB25D0B01D9ED2A0001E36AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB25D0731D9ED2A0001E36AF /* Project object */;
+}
